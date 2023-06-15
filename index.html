@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Es la vista o ventana define que area de pantalla esta disponible al renderizar un documento, nivel de escalado y Zoom que se debe ostrar inicialmente   -->
+    <title>Pochoclos La 22</title>
+    <link rel="shortcut icon" href="images/logoo.jpg" type="image/x-icon"><!-- loguito de pestaña  (cambiarlo y ponerle el borde rojo en vez de cuadrado, que sea circulo)-->
+    <link rel="stylesheet" href="estilo.css"> <!-- Linkeo el css -->
+</head>
+<body>
+    <header>
+        <nav> <!-- menu -->
+            <a href="index.html">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#productos">Productos</a>
+            <a href="#contacto">Contacto</a>
+        </nav> <!-- Titulos -->
+        <section class="textos-header">
+            <h1>"La 22"</h1>
+            <h1>Los mejores pochoclos de la costa Argentina</h1>
+            <h2>Los encontrás en Miramar</h2>
+            <h2>Calle 21 y 22</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-1.41,50.81 C274.54,-47.86 242.37,151.47 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div> <!-- Es la ola de la pagina-->
+    </header>
+    <main> <!-- Sobre Nosotros -->
+        <section class="contenedor sobre-nosotros"> 
+            <h2 id="nosotros" class="titulo">Nosotros</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="images/img12.jpg" alt="" class="imagen-about-us">  <!-- Imagen sobre nosotros (pochoclos) -->
+            </div>
+            <div class="contenido-textos">
+                <h3><span>1</span>Lo más pedido</h3> 
+                <p>Son los pochoclos dulces, estos mismos son elaborados con productos específicos y escenciales para lograr un sabor único que a todos les facina. </p>
+            </div>
+            
+        </section>
+        <section class="productos"> 
+            <div class="contenedor">
+                <h2 id="productos" class="titulo">Productos</h2> <!-- Productos Imagen 01-->
+                <div class="galeria-productos">
+                    <div class="imagen-produ">
+                        <img src="images/img01.jpg" alt="">
+                        <div class="hover-galeria">
+                            
+                            <a href="pochoclos.html" target="_blank">POCHOCLOS</a> 
+                        </div>
+                    </div>
+                    <div class="imagen-produ">
+                        <img src="images/img04.png" alt=""> <!-- Productos Imagen 04-->
+                        <div class="hover-galeria">
+                            
+                            <a href="garrapinadas.html" target="_blank">GARRAPIÑADAS</a> 
+                        </div>
+                    </div><div class="imagen-produ">
+                        <img src="images/img05.jpg" alt=""> <!-- Productos Imagen 05-->
+                        <div class="hover-galeria">
+                            
+                            <a href="manzanas.html" target="_blank">MANZANAS ACARAMELADAS</a>
+                        </div>
+                    </div><div class="imagen-produ">
+                        <img src="images/img06.jpg" alt=""> <!-- Productos Imagen 06-->
+                        <div class="hover-galeria">
+                            
+                            <a href="mielcitas.html" target="_blank">MIELCITAS</a> 
+                        </div>
+                    </div><div class="imagen-produ">
+                        <img src="images/img07.jpg" alt=""> <!-- Productos Imagen 07-->
+                        <div class="hover-galeria">
+                            
+                            <a href="CoposAzucar.html" target="_blank">COPOS DE AZUCAR</a>
+                        </div>
+                    </div><div class="imagen-produ">
+                        <img src="images/img08.jpg" alt=""> <!-- Productos Imagen 08-->
+                        <div class="hover-galeria">
+                            
+                            <a href="maniCascara.html" target="_blank">MANÍ CON CÁSCARA</a>
+                        </div>
+                    </div>
+                    <div class="imagen-produ">
+                        <img src="images/img09.jpg" alt=""> <!-- Productos Imagen 09-->
+                        <div class="hover-galeria">
+                            
+                            <a href="pirulines.html" target="_blank">PIRULINES</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="contacto"> <!-- Nuestros contacto ubicacion y tel-->
+            <div class="contenedor">
+                <h2 id="contacto" class="titulo">Contacto</h2>
+                <div class="contacto-cont">
+                    <div class="contacto-ind">
+                        <img src="images/img10.jpeg" alt=""> <!--Imagen ubicacion (quiero que vaya directo al google maps)- va directo al google maps -->
+                        <h3>Ubicación</h3> <!-- quiero que me salga solo la palabra ubicación y me lleve a otro html con el mapita  -->
+                        <a href="ubicacion.html" target="_blank"> Clic aquí </a>
+                    </div>
+                    <div class="contacto-ind">
+                        <img src="images/logo-wsp.jpg" alt=""> <!--Imagen whatsap (quiero que vaya directo al whatsapp) va directo al wsp y escribe un automensaje-->
+                        <h3>WhatsApp</h3> <!-- quiero que me salga solo la palabra whats app y me abra en otra ventana el chat(darle estilo al a href en el css)-->
+                        <a href="https://api.whatsapp.com/send?phone=542291459739&text=Hola!!!%20me%20interesa%20conocer%20m%C3%A1s%20sobre:" target="_blank"> Clic aquí </a> <!-- quiero que clic aqui sea un botón -->
+                    </div>
+                    <div class="contacto-ind">
+                        <img src="images/logo-insta.jpg" alt=""> <!--Imagen instagram (quiero que vaya directo al instagram) va a otra página donde está el qr del instagram-->
+                        <h3>Instagram</h3>
+                        <a href="insta.html" target="_blank"> Clic aquí </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2 class="titulo-final">&copy; Pochoclos La 22 | Celes Karen</h2> <!-- Pie de página -->
+    </footer>
+</body>
+</html>

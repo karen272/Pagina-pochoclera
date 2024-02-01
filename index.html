@@ -28,6 +28,8 @@
             <h1>Los mejores pochoclos de la costa Argentina</h1>
             <h2>Los encontrás en Miramar</h2>
             <h2>Calle 21 y 22</h2>
+            <a href="#productos">Productos</a>
+            <h1>👇​</h1>
         </section>
         <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-1.41,50.81 C274.54,-47.86 242.37,151.47 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div> <!-- Es la ola de la pagina-->
     </header>
@@ -39,66 +41,31 @@
             </div>
             <div class="contenido-textos">
                 <h3><span>1</span>Lo más pedido</h3> 
-                <p>Son los pochoclos dulces, estos mismos son elaborados con productos específicos y escenciales para lograr un sabor único que a todos les facina. </p>
+                <p>Los pochoclos dulces, son elaborados con productos específicos y escenciales para lograr un sabor único que a todos les facina. </p>
+            </div>
+            <h2 id="nosotros" class="titulo">VISITANOS EN</h2>
+            <div class="contenedor-sobre-nosotros">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.361799696248!2d-57.83911693724126!3d-38.271105241265474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95851062d159d1c9%3A0x9511f33fbd2a3f48!2sC.%2022%20%26%20C.%2021%2C%20Miramar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1669685770329!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+        <section class="productos" > 
+            <div class="contenedor">
+                <h2 id="productos" class="titulo">Productos</h2> <!-- Productos Imagen 01-->
+                <div class="programas" id="cartas-container">
+                    <!-- Las cartas se agregarán dinámicamente aquí -->
+                </div>
+            </div>
+        </section>
+        <section class="contenedor sobre-nosotros"> 
+            <h2 id="nosotros" class="titulo">Queres encargarnos productos para un evento?</h2>
+            <div class="contenedor-sobre-nosotros">
+                <button id="btnContactanos">CONTACTANOS!</button>
             </div>
             
         </section>
-        <section class="productos"> 
-            <div class="contenedor">
-                <h2 id="productos" class="titulo">Productos</h2> <!-- Productos Imagen 01-->
-                <div class="galeria-productos">
-                    <div class="imagen-produ">
-                        <img src="images/img01.jpg" alt="Pochoclos">
-                        <div class="hover-galeria">
-
-                            <a href="pochoclos.html" target="_blank">POCHOCLOS</a> 
-                        </div>
-                    </div>
-                    <div class="imagen-produ">
-                        <img src="images/img04.png" alt="Garrapinadas"> <!-- Productos Imagen 04-->
-                        <div class="hover-galeria">
-                            
-                            <a href="garrapinadas.html" target="_blank">GARRAPIÑADAS</a> 
-                        </div>
-                    </div><div class="imagen-produ">
-                        <img src="images/img05.jpg" alt="Manzanas Aarameladas"> <!-- Productos Imagen 05-->
-                        <div class="hover-galeria">
-                            
-                            <a href="manzanas.html" target="_blank">MANZANAS ACARAMELADAS</a>
-                        </div>
-                    </div><div class="imagen-produ">
-                        <img src="images/img06.jpg" alt="mielcitas"> <!-- Productos Imagen 06-->
-                        <div class="hover-galeria">
-                            
-                            <a href="mielcitas.html" target="_blank">MIELCITAS</a> 
-                        </div>
-                    </div><div class="imagen-produ">
-                        <img src="images/img07.jpg" alt="Copos de Azucar"> <!-- Productos Imagen 07-->
-                        <div class="hover-galeria">
-                            
-                            <a href="CoposAzucar.html" target="_blank">COPOS DE AZUCAR</a>
-                        </div>
-                    </div><div class="imagen-produ">
-                        <img src="images/img08.jpg" alt="Mani con Cascara"> <!-- Productos Imagen 08-->
-                        <div class="hover-galeria">
-                            
-                            <a href="maniCascara.html" target="_blank">MANÍ CON CÁSCARA</a>
-                        </div>
-                    </div>
-                    <div class="imagen-produ">
-                        <img src="images/img09.jpg" alt="Pirulines"> <!-- Productos Imagen 09-->
-                        <div class="hover-galeria">
-
-                            <a href="pirulines.html" target="_blank">PIRULINES</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
         <section class="contacto"> <!-- Nuestros contacto ubicacion y tel-->
             <div class="contenedor">
-                <h2 id="contacto" class="titulo">Contacto</h2>
                 <div class="contacto-cont">
                     <div class="contacto-ind">
                         <img src="images/img10.jpeg" alt="Ubicacion"> <!--Imagen ubicacion (quiero que vaya directo al google maps)- va directo al google maps -->
@@ -119,6 +86,7 @@
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
     <footer>
         <h2 class="titulo-final">&copy; Pochoclos La 22 | Celes Karen</h2> <!-- Pie de página -->
     </footer>

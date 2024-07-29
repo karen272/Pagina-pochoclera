@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const cartasContainer = document.getElementById("cartas-container");
 
     const productos = [
-        { nombre: "Pochoclos", precio: "$1000", imagen: "images/img01.jpg" },
-        { nombre: "Garrapiñadas", precio: "$1000", imagen: "images/img04.png" },
-        { nombre: "Algodón de Azúcar", precio: "$1000", imagen: "images/img07.jpg" },
+        { nombre: "Pochoclos", precio: "$2000", imagen: "images/img01.jpg" },
+        { nombre: "Garrapiñadas", precio: "$2000", imagen: "images/img04.png" },
+        { nombre: "Algodón de Azúcar", precio: "$2000", imagen: "images/img07.jpg" },
         { nombre: "Manzanas Acarameladas", precio: "$2000", imagen: "images/img05.jpg" },
-        { nombre: "Maní con cáscara", precio: "$1000", imagen: "images/img08.jpg" },
+        { nombre: "Maní con cáscara", precio: "$2000", imagen: "images/img08.jpg" },
         // Agrega más productos según sea necesario
     ];
 
